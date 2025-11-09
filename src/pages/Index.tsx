@@ -228,7 +228,7 @@ const Index = () => {
                   </div>
                   <div>
                     <div className="font-semibold mb-1">Телефон</div>
-                    <div className="text-muted-foreground">+7 (927) 165-13-01</div>
+                    <a href="tel:+79271651301" className="text-muted-foreground hover:text-primary transition-colors">+7 (927) 165-13-01</a>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -237,7 +237,7 @@ const Index = () => {
                   </div>
                   <div>
                     <div className="font-semibold mb-1">Email</div>
-                    <div className="text-muted-foreground">info@domzaboty.ru</div>
+                    <a href="mailto:info@domzaboty.ru" className="text-muted-foreground hover:text-primary transition-colors">info@domzaboty.ru</a>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -310,8 +310,8 @@ const Index = () => {
             <div>
               <h4 className="font-semibold mb-4">Контакты</h4>
               <div className="space-y-2 opacity-80">
-                <div>+7 (927) 165-13-01</div>
-                <div>info@domzaboty.ru</div>
+                <a href="tel:+79271651301" className="block hover:opacity-100 transition-opacity">+7 (927) 165-13-01</a>
+                <a href="mailto:info@domzaboty.ru" className="block hover:opacity-100 transition-opacity">info@domzaboty.ru</a>
                 <div>г. Саратов, ул. Рабочая, д. 27</div>
               </div>
             </div>
