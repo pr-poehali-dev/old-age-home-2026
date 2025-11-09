@@ -228,7 +228,7 @@ const Index = () => {
                   </div>
                   <div>
                     <div className="font-semibold mb-1">Телефон</div>
-                    <div className="text-muted-foreground">+7 (xxx) xxx-xx-xx</div>
+                    <div className="text-muted-foreground">+7 (927) 165-13-01</div>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -246,7 +246,7 @@ const Index = () => {
                   </div>
                   <div>
                     <div className="font-semibold mb-1">Адрес</div>
-                    <div className="text-muted-foreground">Москва, ул. Примерная, д. 123</div>
+                    <div className="text-muted-foreground">г. Саратов, ул. Рабочая, д. 27</div>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -310,9 +310,9 @@ const Index = () => {
             <div>
               <h4 className="font-semibold mb-4">Контакты</h4>
               <div className="space-y-2 opacity-80">
-                <div>+7 (xxx) xxx-xx-xx</div>
+                <div>+7 (927) 165-13-01</div>
                 <div>info@domzaboty.ru</div>
-                <div>Москва, ул. Примерная, д. 123</div>
+                <div>г. Саратов, ул. Рабочая, д. 27</div>
               </div>
             </div>
           </div>
